@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navBar{
+    height:4.5rem ;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+  width: 100%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;  
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/*Definição das fontes*/
+body{
+    font: 400 1rem 'DM Sans', sans-serif;
+}
+
+h1{
+    font: 700 1.875rem 'Poppins', sans-serif;
+}
